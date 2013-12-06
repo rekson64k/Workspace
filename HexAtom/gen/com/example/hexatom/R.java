@@ -32,34 +32,37 @@ public final class R {
         public static final int circletoplefttrans=0x7f020008;
         public static final int circletopright850=0x7f020009;
         public static final int circletoprighttrans=0x7f02000a;
-        public static final int ic_action_cancel=0x7f02000b;
-        public static final int ic_action_dock=0x7f02000c;
-        public static final int ic_launcher=0x7f02000d;
-        public static final int question_mark=0x7f02000e;
-        public static final int question_mark_bue=0x7f02000f;
-        public static final int question_mark_buetrans=0x7f020010;
-        public static final int question_mark_icon=0x7f020011;
-        public static final int question_mark_icon_small=0x7f020012;
-        public static final int question_marktrans=0x7f020013;
+        public static final int fast_forward_icon=0x7f02000b;
+        public static final int fast_forward_icontrans=0x7f02000c;
+        public static final int ic_action_cancel=0x7f02000d;
+        public static final int ic_action_dock=0x7f02000e;
+        public static final int ic_launcher=0x7f02000f;
+        public static final int question_mark=0x7f020010;
+        public static final int question_mark_bue=0x7f020011;
+        public static final int question_mark_buetrans=0x7f020012;
+        public static final int question_mark_icon=0x7f020013;
+        public static final int question_mark_icon_small=0x7f020014;
+        public static final int question_marktrans=0x7f020015;
     }
     public static final class id {
-        public static final int action_connect=0x7f08000d;
-        public static final int action_disconnect=0x7f08000e;
-        public static final int action_settings=0x7f080010;
-        public static final int btnHelp=0x7f080004;
-        public static final int button1=0x7f080006;
-        public static final int button2=0x7f080002;
-        public static final int button3=0x7f080003;
-        public static final int button4=0x7f080005;
+        public static final int action_connect=0x7f08000e;
+        public static final int action_disconnect=0x7f08000f;
+        public static final int action_settings=0x7f080011;
+        public static final int btnFF=0x7f080007;
+        public static final int btnHelp=0x7f080006;
+        public static final int btnNE=0x7f080005;
+        public static final int btnNW=0x7f080003;
+        public static final int btnSE=0x7f080002;
+        public static final int btnSW=0x7f080004;
         public static final int button_fire=0x7f080000;
-        public static final int connect=0x7f08000b;
-        public static final int disconnect=0x7f08000f;
+        public static final int connect=0x7f08000c;
+        public static final int disconnect=0x7f080010;
         public static final int editText_command=0x7f080001;
-        public static final int editText_ipaddress=0x7f08000a;
-        public static final int editText_port=0x7f08000c;
-        public static final int textView_IP=0x7f080008;
-        public static final int textView_main=0x7f080007;
-        public static final int textView_port=0x7f080009;
+        public static final int editText_ipaddress=0x7f08000b;
+        public static final int editText_port=0x7f08000d;
+        public static final int textView_IP=0x7f080009;
+        public static final int textView_main=0x7f080008;
+        public static final int textView_port=0x7f08000a;
     }
     public static final class layout {
         public static final int activity_command=0x7f030000;
@@ -70,6 +73,7 @@ public final class R {
         public static final int main=0x7f070001;
     }
     public static final class string {
+        public static final int FFDesc=0x7f05000f;
         public static final int action_connect=0x7f050008;
         public static final int action_disconnect=0x7f050009;
         public static final int action_settings=0x7f050002;

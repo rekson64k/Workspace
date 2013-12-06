@@ -246,7 +246,25 @@ public class CommandActivity extends Activity {
 		     setMessage("General Exception: " + e.getMessage()).
 		     setNeutralButton("Close", null).show();
 		  }
-	  }	    
+	  }	
+
+      //Method:		Fast Fotward Click
+ 	  //Returns:	none
+ 	  //Arguments:	View
+	  public void FFClick (View view) {		  
+		  //Generate a string to speed up time
+		  String tempCmd = "t800";
+		  
+		  try { 
+			 //Send a command to the HexAtom server using an AsyncTask implementation
+			 new SendCommand(parent, tempCmd).execute(InIP, InPort, OutIP, OutPort, seqNum.toString());
+			 seqNum++;
+		  } catch (Exception e) {
+		 	 new AlertDialog.Builder(CommandActivity.this).setTitle("Error!").
+		     setMessage("General Exception: " + e.getMessage()).
+		     setNeutralButton("Close", null).show();
+		  }
+	  }    
 	    
 	  //Free up the OSCPortIn to allow the game to reconnect after closing.
 	  @override

@@ -18,36 +18,24 @@
         android:text="@string/button_fire" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btnSE"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/button3"
-        android:layout_toLeftOf="@+id/button3"
+        android:layout_below="@+id/btnNW"
+        android:layout_toLeftOf="@+id/btnNW"
         android:background="@drawable/circlebottomlefttrans"
-        android:tag="se"
-        android:onClick="gamespaceClick" />
-
-    <ImageButton
-        android:id="@+id/btnHelp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/button_fire"
-        android:layout_marginLeft="15dp"
-        android:layout_toRightOf="@+id/button_fire"
-        android:background="@null"
-        android:contentDescription="@string/helpDesc"
-        android:onClick="helpClick"
-        android:src="@drawable/question_mark_icon_small" />
+        android:onClick="gamespaceClick"
+        android:tag="se" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/btnSW"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/button3"
-        android:layout_below="@+id/button3"
+        android:layout_alignLeft="@+id/btnNW"
+        android:layout_below="@+id/btnNW"
         android:background="@drawable/circlebottomrighttrans"
-        android:tag="sw"
-        android:onClick="gamespaceClick" />
+        android:onClick="gamespaceClick"
+        android:tag="sw" />
 
     <EditText
         android:id="@+id/editText_command"
@@ -60,25 +48,50 @@
         android:hint="@string/hintCommand" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/btnNW"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/button1"
-        android:layout_alignBottom="@+id/button1"
+        android:layout_alignBaseline="@+id/btnNE"
+        android:layout_alignBottom="@+id/btnNE"
         android:layout_alignRight="@+id/btnHelp"
         android:background="@drawable/circletoprighttrans"
         android:onClick="gamespaceClick"
         android:tag="nw" />
 
     <Button
-        android:id="@+id/button1"
+        android:id="@+id/btnNE"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/editText_command"
         android:layout_marginTop="64dp"
-        android:layout_toLeftOf="@+id/button4"
+        android:layout_toLeftOf="@+id/btnSW"
         android:background="@drawable/circletoplefttrans"
         android:onClick="gamespaceClick"
         android:tag="ne" />
+
+    <ImageButton
+        android:id="@+id/btnHelp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnNE"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:background="@null"
+        android:contentDescription="@string/helpDesc"
+        android:onClick="helpClick"
+        android:src="@drawable/question_mark_icon_small" />
+
+
+    <ImageButton
+        android:id="@+id/btnFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/editText_command"
+        android:layout_alignLeft="@+id/btnNE"
+        android:background="@null"
+        android:src="@drawable/fast_forward_icon"
+        android:contentDescription="@string/FFDesc"
+        android:onClick="FFClick"
+        android:tag="FF" />
 
 </RelativeLayout>

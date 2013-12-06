@@ -17,4 +17,5 @@
     <string name="gameSpace">Gamespace</string>
 	<string name="helpDesc">Help</string>
 	<string name="hintCommand">Enter command here:</string>
+<string name="FFDesc">Fast Forward</string>
 </resources>
