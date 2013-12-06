@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HexAtom</string>
+    <string name="title">HexAtom V3</string>
+    <string name="action_settings">Settings</string>
+    <string name="ip_address">Please enter the IP address and port number 
+        of the HexAtom server:</string>
+    <string name="button_connect">Connect</string>
+    <string name="textView_IP">IP Address:</string>
+    <string name="textView_port">Port #:</string>
+    <string name="button_fire">Fire!</string>
+    <string name="action_connect">Connect</string>
+    <string name="action_disconnect">Disconnect</string>
+    <string name="connect">Connect</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="gameSpace">Gamespace</string>
+	<string name="helpDesc">Help</string>
+	<string name="hintCommand">Enter command here:</string>
+</resources>
